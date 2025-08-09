@@ -7,3 +7,4 @@
  # - streamlit=
 snowflake-snowpark-python
 streamlit
+pandas
