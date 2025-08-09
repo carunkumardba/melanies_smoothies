@@ -29,7 +29,9 @@ pd_df=my_dataframe.to_pandas()
 #st.stop()
 
 ingredients_list= st.multiselect(
-    "choose upto 5 Ingredients?", my_dataframe,max_selections=5)
+    "choose upto 5 Ingredients?", 
+      my_dataframe,
+      max_selections=5)
 
 if ingredients_list:
     #st.write(ingredients_list)
